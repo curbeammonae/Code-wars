@@ -5,3 +5,11 @@ function doubleInteger(i) {
    i = i * 2
     return i;
   }
+
+  //another answer
+
+  function doubleInteger(i) {
+    // 
+    i*=2
+    return i;
+  }
