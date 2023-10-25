@@ -14,3 +14,11 @@ function updateLight(current) {
   return 'green'
     }
   }
+
+  //another way to solve
+
+  function updateLight(current) {
+  
+    return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+  
+  }
