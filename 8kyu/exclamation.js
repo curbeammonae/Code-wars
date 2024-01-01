@@ -12,3 +12,8 @@ function removeExclamationMark(str) {
 // Example usage:
 const result = removeExclamationMark("Hello world!"); // Output: "Hello world"
 console.log(result);
+
+//refactor
+
+
+const remove = s => s.replace(/!$/, '');
