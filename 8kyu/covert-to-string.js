@@ -5,4 +5,9 @@ function stringToArray(string){
     
     return arr
     }
+
+
+const stringToArray = () => {
+    return string.split(' ')
+}
     
