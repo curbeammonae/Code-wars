@@ -2,6 +2,4 @@
 
 
 
-function remove (string) {  
-    return '';
-  }
+const remove = s => s.replace(/!+$/, '');
